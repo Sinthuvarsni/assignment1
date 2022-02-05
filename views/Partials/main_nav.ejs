@@ -1,0 +1,63 @@
+ <!--main navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <nav class="navbar navbar-light bg-light">
+    
+    
+      <a class="navbar-brand" href="#">
+        <img src="/image2vector.svg" alt="" width="50" height="40">
+      </a>
+     
+  </nav>
+    <a class="navbar-brand" href="/home">Exress Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+         
+        
+        <%if (title == "Home") { %> 
+        <li class="nav-item active">
+        <% } else { %> 
+        <li class="nav-item">
+        <% } %>     
+          <a class="nav-link" href="/home"><i class="fas fa-home"></i> Home</a>
+        </li>
+        
+        <%if (title=="About me") { %> 
+          <li class="nav-item active">
+            <% }else { %> 
+              <li class="nav-item">
+                <% } %>  
+                    <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About me</a>
+        </li>
+        
+
+        <%if (title=="Projects") { %> 
+          <li class="nav-item active">
+            <% }else { %> 
+              <li class="nav-item">
+                <% } %>  
+                <a class="nav-link" href="/projects">Projects</a>
+        </li>
+        <%if (title=="Services") { %> 
+          <li class="nav-item active">
+            <% }else { %> 
+              <li class="nav-item">
+                <% } %>  
+
+                    <a class="nav-link" href="/services">Services</a>
+        </li>
+
+        <%if (title=="Contact me") { %> 
+          <li class="nav-item active">
+            <% }else { %> 
+              <li class="nav-item">
+                <% } %>  
+
+                <a class="nav-link" href="/contactme"><i class="fas fa-phone-square-alt"></i> Contact me</a>
+        </li>
+    </div>
+</nav>
