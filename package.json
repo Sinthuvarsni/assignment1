@@ -1,16 +1,14 @@
 {
   "name": "assignment1-301167343-sinthuvarsni",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./Server.js"
   },
-
-"engines": {
-  "node": "^16.13.2",
-  "npm":"^6.0.0"
-},
-
+  "engines": {
+    "node": "^16.13.2",
+    "npm": "^6.0.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3",
@@ -37,4 +35,5 @@
     "url": "https://github.com/Sinthuvarsni/assignment1/issues"
   },
   "homepage": "https://github.com/Sinthuvarsni/assignment1#readme"
-}
+
+ }
