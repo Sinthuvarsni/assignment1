@@ -1,14 +1,16 @@
 {
-  "name": "assignment1",
-  "version": "0.0.1",
+  "name": "assignment1-301167343-sinthuvarsni",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./Server.js"
   },
-  "engines": {
-    "node": "^12.00.0",
-    "npm": "^6.0.0"
-  },
+
+"engines": {
+  "node": "^16.13.2",
+  "npm":"^6.0.0"
+},
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3",
@@ -21,18 +23,5 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  },
-  "description": "��#\u0000 \u0000A\u0000s\u0000s\u0000i\u0000g\u0000n\u0000m\u0000e\u0000n\u0000t\u00001\u0000_\u00003\u00000\u00001\u00001\u00006\u00007\u00003\u00004\u00003\u0000\r\u0000 \u0000",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sinthuvarsni/assignment1.git"
-  },
-  "author": "Sinthuvarsni Devaraju",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sinthuvarsni/assignment1/issues"
-  },
-  "homepage": "https://github.com/Sinthuvarsni/assignment1#readme"
+  }
 }
